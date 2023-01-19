@@ -1,0 +1,72 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+
+.navBar {
+  /* width: 1440px; */
+  height: 12vh;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+
+  background: #fff;
+}
+
+.icon {
+  position: absolute;
+  /* width: 138px; */
+  height: 8vh;
+  left: 3vw;
+  top: 2vh;
+}
+
+.searchBar {
+  position: absolute;
+  /* width: 40vw; */
+  height: 5vh;
+  left: 520px;
+  top: 24px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+}
+
+.signIn {
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  left: 85vw;
+  top: 24px;
+
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 18px;
+  line-height: 25px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #a7a7a7;
+}
+
+.signUp {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  left: 90vw;
+  top: 35px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 800 !important;
+  font-size: 18px;
+  line-height: 35px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000 !important;
+}

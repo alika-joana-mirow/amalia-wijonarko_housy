@@ -1,0 +1,28 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+
+body {
+  background-color: #e5e5e5;
+}
+
+.card {
+  box-sizing: border-box;
+
+  width: 290px;
+  height: 240px;
+  left: 10vw;
+  top: 3vh;
+
+  border: 3px solid rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+}
+
+.cardImg {
+  position: absolute;
+  width: 270px;
+  height: 160px;
+  left: 11px;
+  top: 10px;
+
+  background: url('');
+  border-radius: 5px;
+}

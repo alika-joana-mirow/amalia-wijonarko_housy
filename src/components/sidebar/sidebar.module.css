@@ -1,0 +1,180 @@
+@import url("https://fonts.cdnfonts.com/css/avenir");
+
+.container {
+  position: absolute;
+  width: 460px;
+  height: 1090px;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+
+  background: #ffffff;
+}
+
+.title {
+  position: absolute;
+  height: 33px;
+  left: 50px;
+
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 33px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.btnTypeRent {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  /* left: 50px; */
+  top: 215px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+  border: 0;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.date {
+  position: absolute;
+  width: 375px;
+  height: 50px;
+  left: 50px;
+  top: 355px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+}
+
+.subTitle {
+  position: absolute;
+  /* width: 61px; */
+  height: 19px;
+  left: 50px;
+  /* top: 483px; */
+
+  font-family: "Avenir";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #929292;
+}
+
+.btnProp {
+  position: absolute;
+  width: 55px;
+  height: 40px;
+  /* left: 50px; */
+  /* top: 512px; */
+
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.checkBox {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 405px;
+  top: 747px;
+
+  border-radius: 5px;
+}
+
+.amenities {
+  position: absolute;
+  /* width: 84px; */
+  height: 25px;
+  left: 50px;
+  /* top: 709px; */
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #929292;
+}
+
+.budget {
+  position: absolute;
+  width: 237px;
+  height: 50px;
+  left: 183px;
+  top: 894px;
+
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+}
+
+.budgetText {
+  position: absolute;
+  /* width: 115px; */
+  height: 24px;
+  left: 50px;
+  /* top: 906px; */
+
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #000000;
+}
+
+.btnSubmit {
+  position: absolute;
+  width: 140px;
+  height: 50px;
+  left: 260px;
+  /* top: 984px; */
+  /* display: flex; */
+
+  background: #5a57ab;
+  border-radius: 5px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
